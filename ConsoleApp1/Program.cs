@@ -13,12 +13,12 @@ namespace ConsoleApp1
     {
         public static string setNome()
         {
-            Console.WriteLine("Por favor insira o nome do usário");
+            Console.WriteLine("Por favor insira o nome do usuário");
             return Console.ReadLine();
         } 
         public static double setSalario()
         {
-            Console.WriteLine("Por favor insira o salário atual do usário");
+            Console.WriteLine("Por favor insira o salário atual do usuário");
             return Convert.ToDouble(Console.ReadLine());
         } 
         public static double setPercentual()
